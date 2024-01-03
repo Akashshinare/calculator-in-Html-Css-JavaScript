@@ -1,0 +1,224 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mdiv {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 60px;
+    
+}
+
+.op {
+    width: 300px; 
+    box-sizing: border-box; 
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-left: 0px;
+    text-align: right;
+    border: none;
+    color: whitesmoke;
+}
+input[type="text"].op {
+    background-color:black;
+    border: none;
+    outline: none;
+}
+
+.calc{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border-radius: 15px;
+}
+input[type="button"]{
+    margin-left: 26px;
+    margin-top: 13px;
+    color: text;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+input[type="button"].ac {
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].clear {
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].mod {
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+input[type="button"].division {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].seven {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].eight {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].nine {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+input[type="button"].mul {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].four {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].five {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].six {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].minus {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].one {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].two {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].three {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].plus {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].zero {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    width: 115px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: left;
+
+}
+input[type="button"].dot {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+input[type="button"].equal {
+    height: 40px;
+    width: 40px;
+    background-color:grey;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
